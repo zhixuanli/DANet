@@ -43,6 +43,9 @@ We train our DANet-101 with only fine annotated data and submit our test results
    ```shell
    CUDA_VISIBLE_DEVICES=0,1,2,3 python test.py --dataset cityscapes --model danet --resume-dir cityscapes/model --base-size 2048 --crop-size 768 --workers 1 --backbone resnet101 --multi-grid --multi-dilation 4 8 16 --eval
    ```
+   ```shell
+   python test.py --dataset cityscapes --model danet --resume-dir cityscapes/model --base-size 2048 --crop-size 768 --workers 1 --backbone resnet101 --multi-grid --multi-dilation 4 8 16 --eval
+   ```
    
   - For multi-scale testing, please run:
   

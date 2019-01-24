@@ -11,3 +11,4 @@ encoding.egg-info/
 *.png
 *.json
 .idea/*
+*.tar
